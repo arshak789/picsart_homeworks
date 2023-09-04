@@ -10,8 +10,6 @@ int main()
 		printf("'%d' ", digit);
 		number /= 10;
 	}
-
 	printf("\n");
-
 	return 0;
 }
