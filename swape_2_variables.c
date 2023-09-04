@@ -13,8 +13,8 @@ int main()
 	var1 = var2;
 	var2 = tmp;
 
-	printf("SWAPED VAR1 = %d \n ", var1);
-	printf("SWAPED VAR2 = %d \n ", var2);
+	printf("SWAPED VAR1 = %d\n", var1);
+	printf("SWAPED VAR2 = %d\n ", var2);
 	return 0;
 }
 

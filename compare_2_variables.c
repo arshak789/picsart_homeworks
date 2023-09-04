@@ -11,12 +11,10 @@ int main()
 	printf("Enter second integer: ");
 	scanf("%d", &var2);
 	compare_result = (var1 == var2);
-	if(compare_result){
-
-		printf("numbers are equal\n");
-	}else{
-		printf("numbers are not equal\n");
+	if(compare_result) {
+		printf("Numbers are equal!\n");
+	} else {
+		printf("Numbers are not equal!\n");
 	}
-
 	return 0;
 }
