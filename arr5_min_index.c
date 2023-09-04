@@ -6,7 +6,7 @@ int main()
 	int arr[size];
 	printf("Please enter five numnbers.\n");
 	for(int i = 0; i < size; ++i) {
-		printf("enter the number :");
+		printf("Enter the number :");
 		scanf("%d", &arr[i]);
 	}
 	int min = arr[0];

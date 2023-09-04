@@ -6,7 +6,7 @@ int main()
 	int arr[5];
 	printf("Please enter five numbers.\n");
 	for(int i = 0; i < size; ++i) {
-		printf("enter number : ");
+		printf("Enter number : ");
 		scanf("%d", &arr[i]);
 	}
 	int max = arr[0];
