@@ -22,6 +22,6 @@ int main()
 	   case '*':
 		   res = num1 * num2;
 	}	
-	printf("RESULT : %d %c %d = %d\n", num1, a, num2, res);
+	printf("RESULT: %d %c %d = %d\n", num1, a, num2, res);
 	return 0;
 }
