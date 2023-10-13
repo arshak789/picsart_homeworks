@@ -19,7 +19,7 @@ int main() {
         printf("\n");
     }
     int tmp = 0; 
-    for (int i = 0; i < row_size; ++i) {
+    for (int i = 0; i < row_size ; ++i) {
         for (int j = i + 1; j < column_size; ++j) {
                 tmp = matrix[i][j];
                 matrix[i][j] = matrix[j][i];
